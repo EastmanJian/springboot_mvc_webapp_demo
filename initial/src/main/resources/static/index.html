@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<!--
+Static resources, like HTML or JavaScript or CSS, can easily be served from your Spring Boot application just be
+dropping them into the right place in the source code. By default Spring Boot serves static content from resources in
+the classpath at "/static" (or "/public"). The index.html resource is special because it is used as a "welcome page"
+if it exists, which means it will be served up as the root resource, i.e. at http://localhost:8080/ in our example.
+-->
+<html>
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p>Get your greeting <a href="/greeting">here</a></p>
+<p>What's New <a href="/whatsNew">here</a></p>
+</body>
+</html>
